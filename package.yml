@@ -1,8 +1,8 @@
 name       : gnome-pie
-version    : 0.6.8
-release    : 1
+version    : 0.6.9
+release    : 2
 source     :
-    - https://github.com/Simmesimme/Gnome-Pie/archive/v0.6.8.tar.gz : af0e9758bb9f211df2984cf56c938eef8ed4e709e6f727c380b1ed9305fac011
+    - https://github.com/Simmesimme/Gnome-Pie/archive/v0.6.9.tar.gz : 07de5d01198d473c3988ddf4bb38ac4e8d58cc82d46866ab0bb9c6710cdf123a
 license    : GPL-3.0
 component  : desktop.gnome
 summary    : Gnome-Pie is a circular application launcher for Linux.
