@@ -1,8 +1,8 @@
 name       : gnome-pie
-version    : 0.6.9
-release    : 2
+version    : 0.7.0
+release    : 3
 source     :
-    - https://github.com/Simmesimme/Gnome-Pie/archive/v0.6.9.tar.gz : 07de5d01198d473c3988ddf4bb38ac4e8d58cc82d46866ab0bb9c6710cdf123a
+    - https://github.com/Simmesimme/Gnome-Pie/archive/v0.7.0.tar.gz : 634445767798559ae57840909d5fc94bbedc32e7761bf306f512ae2da6a77fb6
 license    : GPL-3.0
 component  : desktop.gnome
 summary    : Gnome-Pie is a circular application launcher for Linux.
@@ -20,8 +20,19 @@ builddeps  :
     - pkgconfig(xtst)
     - vala
 setup      : |
-    %cmake
+    %cmake -DCMAKE_BUILD_TYPE=Release .
 build      : |
     %make
 install    : |
     %make_install
+    rm -Rf $installdir/usr/share/locale/bg
+    rm -Rf $installdir/usr/share/locale/de
+    rm -Rf $installdir/usr/share/locale/es
+    rm -Rf $installdir/usr/share/locale/fr
+    rm -Rf $installdir/usr/share/locale/it
+    rm -Rf $installdir/usr/share/locale/ko
+    rm -Rf $installdir/usr/share/locale/lt
+    rm -Rf $installdir/usr/share/locale/pl
+    rm -Rf $installdir/usr/share/locale/pt_BR
+    rm -Rf $installdir/usr/share/locale/ru
+    rm -Rf $installdir/usr/share/locale/zh_CN
