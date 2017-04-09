@@ -1,6 +1,6 @@
 name       : gnome-pie
 version    : 0.7.0
-release    : 3
+release    : 4
 source     :
     - https://github.com/Simmesimme/Gnome-Pie/archive/v0.7.0.tar.gz : 634445767798559ae57840909d5fc94bbedc32e7761bf306f512ae2da6a77fb6
 license    : GPL-3.0
@@ -18,6 +18,7 @@ builddeps  :
     - pkgconfig(libxml-2.0)
     - pkgconfig(pango)
     - pkgconfig(xtst)
+    - libarchive-devel
     - vala
 setup      : |
     %cmake -DCMAKE_BUILD_TYPE=Release .
