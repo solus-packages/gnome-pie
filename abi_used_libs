@@ -2,6 +2,7 @@ libX11.so.6
 libXtst.so.6
 libappindicator3.so.1
 libarchive.so.13
+libbamf3.so.2
 libc.so.6
 libcairo.so.2
 libgdk-3.so.0
