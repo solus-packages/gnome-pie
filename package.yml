@@ -1,6 +1,6 @@
 name       : gnome-pie
 version    : 0.7.1
-release    : 5
+release    : 6
 source     :
     - https://github.com/Simmesimme/Gnome-Pie/archive/v0.7.1.tar.gz : 930843d6fdc0d773581966847c626f4177060b6491ac34a4d006d5728fe66aea
 license    : GPL-3.0
