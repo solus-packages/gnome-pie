@@ -5,7 +5,7 @@
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
         </Packager>
-        <License>GPL-3.0</License>
+        <License>GPL-3.0-or-later</License>
         <PartOf>desktop.gnome</PartOf>
         <Summary xml:lang="en">Gnome-Pie is a circular application launcher for Linux.</Summary>
         <Description xml:lang="en">Gnome-Pie is a circular application launcher for Linux.
@@ -30,8 +30,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="6">
-            <Date>2017-10-08</Date>
+        <Update release="7">
+            <Date>2018-04-23</Date>
             <Version>0.7.1</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
