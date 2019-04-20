@@ -5,12 +5,12 @@
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
         </Packager>
-        <License>GPL-3.0-or-later</License>
+        <License>MIT</License>
         <PartOf>desktop.gnome</PartOf>
         <Summary xml:lang="en">Gnome-Pie is a circular application launcher for Linux.</Summary>
         <Description xml:lang="en">Gnome-Pie is a circular application launcher for Linux.
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>gnome-pie</Name>
@@ -19,20 +19,135 @@
 </Description>
         <PartOf>desktop.gnome</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="executable">/usr/bin/gnome-pie</Path>
             <Path fileType="data">/usr/share/applications/gnome-pie.desktop</Path>
-            <Path fileType="doc">/usr/share/doc</Path>
-            <Path fileType="data">/usr/share/gnome-pie</Path>
+            <Path fileType="doc">/usr/share/doc/gnome-pie/README.md</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/adwaita/caption_mask.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/adwaita/icon.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/adwaita/icon_highlight.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/adwaita/preview.png</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/adwaita/ring.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/adwaita/theme.xml</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/adwaita_big/icon.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/adwaita_big/icon_highlight.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/adwaita_big/icon_mask.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/adwaita_big/icon_mask_caption.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/adwaita_big/preview.png</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/adwaita_big/ring.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/adwaita_big/theme.xml</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/bright/arrow.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/bright/caption.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/bright/caption_mask.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/bright/gloss.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/bright/icon_active.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/bright/icon_inactive.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/bright/preview.png</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/bright/ring.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/bright/theme.xml</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/elementary/arrow.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/elementary/icon_bg.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/elementary/preview.png</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/elementary/ring.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/elementary/slice_caption.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/elementary/theme.xml</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/funky/bg.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/funky/blue.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/funky/caption.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/funky/icon_bg.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/funky/icon_fg.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/funky/preview.png</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/funky/red.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/funky/slice_caption.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/funky/star.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/funky/theme.xml</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/gloss/arrow.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/gloss/glow_bg.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/gloss/icon_bg.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/gloss/icon_fg.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/gloss/icon_fg_active.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/gloss/icon_mask.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/gloss/preview.png</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/gloss/slice_caption.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/gloss/theme.xml</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/minimalistic_text/bg.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/minimalistic_text/fg.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/minimalistic_text/preview.png</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/minimalistic_text/theme.xml</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/numix/icon.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/numix/icon_mask.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/numix/icon_mask_caption.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/numix/preview.png</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/numix/ring.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/numix/theme.xml</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/o-pie/arrow.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/o-pie/caption1.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/o-pie/caption2.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/o-pie/preview.png</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/o-pie/ring.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/o-pie/theme.xml</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/simple/preview.png</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/simple/slice_caption.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/simple/theme.xml</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/simple_clock/gloss.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/simple_clock/hour.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/simple_clock/icon.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/simple_clock/icon_gloss.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/simple_clock/icon_mask.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/simple_clock/icon_mask_caption.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/simple_clock/minute.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/simple_clock/preview.png</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/simple_clock/ring.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/simple_clock/second.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/simple_clock/theme.xml</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/slim/bg.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/slim/dot.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/slim/preview.png</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/slim/slice_caption.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/slim/theme.xml</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/space_clock/center.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/space_clock/hour.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/space_clock/icon.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/space_clock/icon_highlight.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/space_clock/icon_mask.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/space_clock/icon_mask_caption.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/space_clock/minute.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/space_clock/pointer.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/space_clock/preview.png</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/space_clock/second.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/space_clock/theme.xml</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/unity/arrow.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/unity/caption.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/unity/caption_mask.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/unity/gloss.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/unity/icon_active.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/unity/icon_inactive.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/unity/preview.png</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/unity/ring.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/themes/unity/theme.xml</Path>
+            <Path fileType="data">/usr/share/gnome-pie/ui/icon_select.ui</Path>
+            <Path fileType="data">/usr/share/gnome-pie/ui/pie_options.ui</Path>
+            <Path fileType="data">/usr/share/gnome-pie/ui/preferences.ui</Path>
+            <Path fileType="data">/usr/share/gnome-pie/ui/shapes/shape1.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/ui/shapes/shape2.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/ui/shapes/shape3.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/ui/shapes/shape4.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/ui/shapes/shape5.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/ui/shapes/shape6.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/ui/shapes/shape7.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/ui/shapes/shape8.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/ui/shapes/shape9.svg</Path>
+            <Path fileType="data">/usr/share/gnome-pie/ui/slice_select.ui</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/gnome-pie-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/gnome-pie.svg</Path>
-            <Path fileType="localedata">/usr/share/locale</Path>
-            <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="localedata">/usr/share/locale/nl_NL/LC_MESSAGES</Path>
+            <Path fileType="localedata">/usr/share/locale/zanata.xml</Path>
+            <Path fileType="man">/usr/share/man/man1/gnome-pie.1</Path>
         </Files>
     </Package>
     <History>
-        <Update release="7">
-            <Date>2018-04-23</Date>
-            <Version>0.7.1</Version>
+        <Update release="8">
+            <Date>2019-04-20</Date>
+            <Version>0.7.2</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
